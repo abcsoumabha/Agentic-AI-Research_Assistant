@@ -1,0 +1,29 @@
+# Research Assistant – Python Dependencies
+# =========================================
+# Install all at once:  pip install -r requirements.txt
+
+# ── LLM Backends ──────────────────────────────────────────────────────────────
+# Google Gemini (free tier — set GEMINI_API_KEY environment variable)
+google-generativeai>=0.7.0
+
+# ── Web Search ────────────────────────────────────────────────────────────────
+# DuckDuckGo search — FREE, no API key needed
+duckduckgo-search>=6.1.0
+
+# ── Web Scraping ──────────────────────────────────────────────────────────────
+# HTTP client
+requests>=2.31.0
+
+# HTML parser
+beautifulsoup4>=4.12.0
+lxml>=5.2.0          # fast HTML/XML parser backend for BeautifulSoup
+
+# ── Web UI ────────────────────────────────────────────────────────────────────
+streamlit>=1.35.0
+
+# ── Report rendering (optional but recommended) ───────────────────────────────
+# Converts Markdown to HTML inside the Streamlit report card
+markdown>=3.6
+
+# ── Standard Library (no install needed, listed for documentation) ────────────
+# os, sys, re, datetime, unittest, tempfile, traceback — all built into Python 3.10+
